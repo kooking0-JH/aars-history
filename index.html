@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>육군 아마추어 무선 시스템(AARS) 1925–1941 — MARS의 뿌리와 비상통신의 원형</title>
+<meta name="description" content="1925~1941년 미 육군과 아마추어 무선사가 함께 운영한 AARS의 탄생·넷 구조·재난 비상통신·훈련·전시 중단 과정을 표와 그림으로 정리한 한국어 해설">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">아마추어 무선 역사 · 비상통신의 기원</div>
+  <h1>육군 아마추어 무선 시스템(AARS)<br>1925–1941</h1>
+  <p class="lede">유선이 끊긴 재난 현장에서 메시지를 이어 준 것은 집에서 만든 무선기를 든 아마추어 무선사였습니다. 미 육군 통신병과와 아마추어 무선사가 함께 꾸린 AARS의 17년을 연표·넷 구조도·사례표로 정리합니다.</p>
+  <ul class="qs">
+    <li>군은 왜 아마추어 무선사에게 손을 내밀었을까?</li>
+    <li>1927년 홍수가 남긴 비상통신 교훈 12가지는?</li>
+    <li>잘 훈련된 넷이 전쟁에는 왜 쓰이지 못했을까?</li>
+  </ul>
+</header>
+
+<nav class="toc" id="toc" aria-label="목차">
+  <b>목차</b>
+  <ol start="0">
+    <li><a href="#s0">들어가며 — MARS라는 이름의 뿌리</a></li>
+    <li><a href="#s1">한눈에 보는 연표</a></li>
+    <li><a href="#s2">배경 — 무선 운용사가 모자란 군대</a></li>
+    <li><a href="#s3">ARRL과 1차 세계대전</a></li>
+    <li><a href="#s4">War Department Radio Net</a></li>
+    <li><a href="#s5">1925년, AARS의 출발</a></li>
+    <li><a href="#s6">넷 구조의 변천</a></li>
+    <li><a href="#s7">1927 버몬트 홍수와 12가지 교훈</a></li>
+    <li><a href="#s8">재난 현장 기록</a></li>
+    <li><a href="#s9">훈련과 대회</a></li>
+    <li><a href="#s10">호출부호와 주파수</a></li>
+    <li><a href="#s11">전쟁 직전과 활동 중단</a></li>
+    <li><a href="#s12">성과와 한계</a></li>
+    <li><a href="#s13">오늘의 무선사에게 남는 것</a></li>
+    <li><a href="#s14">출처</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<!-- ===================================================== 0 -->
+<section id="s0">
+<h2><span class="no">0</span> 들어가며 — MARS라는 이름의 뿌리 <span class="en">Introduction</span></h2>
+
+<p><b>MARS</b>(Military Auxiliary Radio System)는 베트남 전쟁 때 장병과 본국 가족을 이어 준 조직으로 잘 알려져 있습니다. 짧은 전문인 <b>MARSgram</b>과 무선–전화 연결인 <b>폰 패치</b>로 1970년 봄 한 달에 42,000건의 메시지를 처리했습니다.</p>
+<p>2009년 12월 23일 미 국방부는 MARS의 이름과 임무를 바꿔 <b>지방·주·연방 기관을 위한 비상통신 지원</b>을 추가했습니다. 새 방향처럼 보이지만, 이 임무는 MARS의 전신인 <b>AARS</b>(Army Amateur Radio System)가 1925년에 받은 두 가지 원래 임무 중 하나입니다.</p>
+
+<figure class="fig">
+  <p class="fig-title">조직 이름의 변천</p>
+  <div class="relay">
+    <div class="hop src"><span class="cs">1925 · Army Amateur 계획</span><br>1929년 개편 때 <b>Army Amateur Radio System(AARS)</b>로 이름 확정</div>
+    <div class="arrow">↓ <small>1941.12 활동 중단 · 2차 세계대전</small></div>
+    <div class="hop"><span class="cs">1948 · MARS</span><br>Military <b>Amateur</b> Radio System — 전쟁의 신 마르스(Mars)에서 따온 약칭</div>
+    <div class="arrow">↓</div>
+    <div class="hop"><span class="cs">1953 · MARS</span><br>Military <b>Affiliate</b> Radio System — 베트남전 MARSgram·폰 패치</div>
+    <div class="arrow">↓</div>
+    <div class="hop dst"><span class="cs">2009 · MARS</span><br>Military <b>Auxiliary</b> Radio System — 민간 기관 비상통신 지원 추가</div>
+  </div>
+  <figcaption>약칭 MARS는 1948년 Robert L. Gabardy 대위가 골랐습니다. 2010년 1월 아이티 지진 때는 민간 운용사 팀을 포르토프랭스에 보내 군·의료·구호 기관 사이의 비상통신을 맡았습니다.</figcaption>
+</figure>
+
+<p>이 해설은 미 육군 지휘참모대학 고등군사연구원(SAMS)의 2010년 논문 <b>「The Army Amateur Radio System: 1925-1941」</b>(Scott B. Hedberg 소령)을 바탕으로 합니다. 논문에는 표나 그림이 없어서, 본문의 연도·수치·호출부호를 모아 이 해설에서 새로 그렸습니다.</p>
+</section>
+
+<!-- ===================================================== 1 -->
+<section id="s1">
+<h2><span class="no">1</span> 한눈에 보는 연표 <span class="en">Timeline</span></h2>
+<p class="small">주황색 점은 재난 비상통신 사례입니다.</p>
+<ul class="tline">
+  <li class="era"><span></span><span class="d">군 무선의 시작</span></li>
+  <li><span class="y">1904</span><span class="d">알래스카 노턴 해협. 봄 해빙에 해저 케이블이 쓸려 나가자 무선으로 연결. 통신병과의 첫 실전 무선</span></li>
+  <li><span class="y">1907</span><span class="d">포트 샘 휴스턴(텍사스)–포트 라일리(캔자스) 무선 연결</span></li>
+  <li><span class="y">1911</span><span class="d">멕시코 국경. 무장 집단이 전화·전신선을 끊었지만 무선으로 연락 유지</span></li>
+  <li><span class="y">1914</span><span class="d"><b>ARRL 창립</b>. 출범 직후부터 군과의 공식 관계를 추진</span></li>
+  <li class="era"><span></span><span class="d">1차 세계대전</span></li>
+  <li><span class="y">1916</span><span class="d">2월 22일 Washington's Birthday Relay. 아이오와에서 출발한 메시지가 3시간 만에 백악관 도착</span></li>
+  <li><span class="y">1917</span><span class="d">미국 참전. 해군이 전파를 통제하고 <b>아마추어국 전면 폐국</b></span></li>
+  <li><span class="y">1918</span><span class="d">휴전. 통신병과 인원 55,989명으로 정점</span></li>
+  <li><span class="y">1919</span><span class="d">9월 26일 아마추어 운용 금지 해제. 해군의 전파 독점 입법은 ARRL의 의회 압박으로 무산</span></li>
+  <li class="era"><span></span><span class="d">AARS 시기</span></li>
+  <li><span class="y">1920</span><span class="d">국방법. 미국 본토를 <b>9개 군단 지역</b>으로 나눔</span></li>
+  <li><span class="y">1922</span><span class="d">1월 War Department Radio Net 운용 시작</span></li>
+  <li><span class="y">1925</span><span class="d">11월 1일 육군–아마추어 제휴 계획 시행. <b>AARS의 출발</b></span></li>
+  <li class="k"><span class="y">1927</span><span class="d">11월 버몬트 홍수. 아마추어가 3주 동안 비상통신 유지</span></li>
+  <li><span class="y">1928</span><span class="d">11월 30일 육군 중앙국 호출부호 WVA → <b>WAR</b></span></li>
+  <li><span class="y">1929</span><span class="d">개편. 명칭 AARS 확정, 표준 조직 도입, 적십자 지원 추가</span></li>
+  <li class="k"><span class="y">1931</span><span class="d">12월 미시시피 주 탤러해치 강 범람 대비 비상 넷 가동</span></li>
+  <li class="k"><span class="y">1933</span><span class="d">CCC 캠프 통신 지원 시작. 캘리포니아 눈폭풍(1월)·롱비치 지진(3월)</span></li>
+  <li class="k"><span class="y">1935</span><span class="d">네브래스카 홍수(6월), 플로리다 키스 허리케인(9월)</span></li>
+  <li><span class="y">1936</span><span class="d">지구 넷·지역 넷 폐지. 주 넷이 최하위 넷</span></li>
+  <li class="k"><span class="y">1937</span><span class="d">남부 일리노이 홍수(1월), 상하이 교민 철수 통신(8월~), 코드 속도 대회(12월 6일)</span></li>
+  <li class="k"><span class="y">1941</span><span class="d">4월 Army Day 메시지, 6월 W3CXL → <b>W3USA</b>, 9월 텍사스 허리케인, 11월 USO 클럽 무선국 개설</span></li>
+  <li><span class="y">1941</span><span class="d">12월 8일 FCC Order No. 87. 마지막 전문 No. 49 송신 후 <b>활동 중단</b></span></li>
+  <li class="era"><span></span><span class="d">이후</span></li>
+  <li><span class="y">1948</span><span class="d">MARS(Military Amateur Radio System)로 재출발</span></li>
+  <li><span class="y">1970</span><span class="d">봄 베트남 내 47국, 한 달 42,000건 처리</span></li>
+  <li><span class="y">2009</span><span class="d">Military Auxiliary Radio System. 비상통신 임무 추가</span></li>
+</ul>
+</section>
+
+<!-- ===================================================== 2 -->
+<section id="s2">
+<h2><span class="no">2</span> 배경 — 무선 운용사가 모자란 군대 <span class="en">The Manpower Problem</span></h2>
+
+<p>1차 세계대전이 시작될 무렵 미 육군 통신병과는 장교 55명, 사병 1,570명이었습니다. 1917년 5월부터 1918년 11월까지 통신병과에 들어온 41,000명 가운데 무선 경험자는 극소수였습니다. 통신병과는 대학과 손잡고 전신 운용사를 급히 양성했지만, 휴전 때까지 인력 부족은 해결되지 않았습니다.</p>
+
+<figure class="fig">
+  <p class="fig-title">통신병과 인원의 급증과 급감</p>
+  <div class="bars">
+    <div class="bar"><span class="lab">1917년 이전<small>장교+사병</small></span><span class="track"><span class="fill gr" style="width:2.9%"></span><span class="val" style="left:2.9%">1,625명</span></span></div>
+    <div class="bar"><span class="lab">1918 휴전<small>장교+사병</small></span><span class="track"><span class="fill r" style="width:100%"></span><span class="val in" style="right:0">55,989명</span></span></div>
+    <div class="bar"><span class="lab">1920 국방법<small>법정 정원</small></span><span class="track"><span class="fill" style="width:9.5%"></span><span class="val" style="left:9.5%">5,300명</span></span></div>
+    <div class="bar"><span class="lab">1921<small>실제 인원</small></span><span class="track"><span class="fill" style="width:5.4%"></span><span class="val" style="left:5.4%">3,000명</span></span></div>
+    <div class="bar"><span class="lab">1922<small>실제 인원</small></span><span class="track"><span class="fill" style="width:3.9%"></span><span class="val" style="left:3.9%">2,184명</span></span></div>
+    <div class="bar"><span class="lab">1926<small>사병</small></span><span class="track"><span class="fill" style="width:3.9%"></span><span class="val" style="left:3.9%">2,200명</span></span></div>
+  </div>
+  <figcaption>전쟁 때 35배로 불어난 인원이 몇 년 만에 전쟁 전 수준으로 돌아갔습니다. 정규군에 남은 통신대대는 캠프 베일(뉴저지)의 제51통신대대 하나였습니다.</figcaption>
+</figure>
+
+<p>숫자만이 문제가 아니었습니다. 민간 출신 운용사는 상업·아마추어 방식에 익숙해서 군 트래픽 처리 절차를 따로 익혀야 했습니다. 해군과의 합동 통신 훈련 보고서(1925)는 육군 야전 운용사의 수준이 해군보다 상당히 낮다고 지적했습니다. 해군은 1903년부터 함정과 육상국에 무선을 갖췄고 1913년 무선을 주 전술 통신 수단으로 삼은 반면, 육군의 무선은 아직 유선의 예비 수단이었습니다.</p>
+
+<div class="myth">
+  <b>"나는 모든 통신이 완전히 끊겼다."</b> 1918년 9월 12일 밤, 전화선이 포격에 끊긴 한 여단장이 사단에 보낸 메시지입니다. 이 메시지는 <b>무선으로</b> 전달되었습니다. 무선은 거의 계속 연결되어 있었지만 전화에 익숙한 지휘관들은 무선을 통신 수단으로 여기지 않았습니다. 1919년 통신감 보고서에 실린 일화입니다.
+</div>
+
+<p>전쟁이 끝나자 무선은 빠르게 군의 표준 장비가 되었습니다. 보병 사단 하나에 배정된 무선기는 1916년 5대에서 1930년대 74대로 늘었고, 1930년대 야전군의 전시 소요는 1,512대였습니다. 무선기가 늘수록 운용사가 더 필요했습니다. 통신학교 무선 운용사 과정 617.5시간 대부분은 모스 부호 송수신 훈련이었습니다. 숙련 운용사 한 명을 만드는 데 그만큼 시간이 걸렸습니다.</p>
+
+<figure class="fig">
+  <p class="fig-title">보병 사단 하나에 배정된 무선기 수</p>
+  <div class="bars">
+    <div class="bar"><span class="lab">1916년</span><span class="track"><span class="fill gr" style="width:6.8%"></span><span class="val" style="left:6.8%">5대</span></span></div>
+    <div class="bar"><span class="lab">1930년대</span><span class="track"><span class="fill" style="width:100%"></span><span class="val in" style="right:0">74대</span></span></div>
+  </div>
+</figure>
+</section>
+
+<!-- ===================================================== 3 -->
+<section id="s3">
+<h2><span class="no">3</span> ARRL과 1차 세계대전 <span class="en">Radio Amateurs and World War I</span></h2>
+
+<p>1차 세계대전 직전 미국의 아마추어 무선사는 약 6,000명이었고, 그중 4,000명 넘게 군에 자원했습니다. ARRL은 창립 직후부터 아마추어 무선의 국가적 쓸모를 증명해 <b>주파수 특권을 지키려</b> 했습니다. 1912년 무선법은 아마추어를 공식 인정하고 전용 주파수를 배정했는데, 이 특권은 다른 이해관계자에게 언제든 빼앗길 수 있었습니다.</p>
+
+<div class="tbl"><table class="stack">
+  <caption>ARRL의 협력 제안과 그 결과</caption>
+  <thead><tr><th>시기</th><th>ARRL의 움직임</th><th>결과</th></tr></thead>
+  <tbody>
+    <tr><td class="n" data-l="시기">1915.8</td><td data-l="ARRL의 움직임">육군장관에게 서신. 38개 주 600국 조직과 비상시 통신 지원을 제안</td><td data-l="결과">"필요하면 연락하겠다"는 짧은 답장</td></tr>
+    <tr><td class="n" data-l="시기">1916.1</td><td data-l="ARRL의 움직임">"Volunteer Radio Corps"(자원 무선단) 구상. 국내 비상·재난 통신 지원 조직</td><td data-l="결과">구상 단계</td></tr>
+    <tr><td class="n" data-l="시기">1916.2.22</td><td data-l="ARRL의 움직임">Washington's Birthday Relay. 록아일랜드 조병창 사령관의 메시지를 9XE(아이오와 대번포트)에서 릴레이망 전체로 전파, 주지사·대통령에게 직접 전달</td><td data-l="결과">대통령 앞 메시지 3시간 만에 백악관 도착. 군과 공식 관계는 맺지 못했지만 이후 협력의 바탕이 됨</td></tr>
+    <tr><td class="n" data-l="시기">1916 가을</td><td data-l="ARRL의 움직임">해군 알링턴국 NAA가 정해진 시각에 송신한 메시지를 전국 아마추어가 받아 적어 우편으로 제출</td><td data-l="결과">수신 능력 시연</td></tr>
+    <tr><td class="n" data-l="시기">1917.2</td><td data-l="ARRL의 움직임">"Department of Defence" 구상. 5,425국 조직으로 정부 메시지 중계를 제안</td><td data-l="결과">해군이 ARRL을 운용사 모집 창구로 활용(2,000명 모집, QST에 입대 신청서 게재)</td></tr>
+    <tr><td class="n" data-l="시기">1917.4</td><td data-l="ARRL의 움직임">일부 아마추어국을 남겨 해군을 돕겠다고 요청</td><td data-l="결과">거부. <b>아마추어국 전면 폐국</b>. 회원에게 입대와 장비 기증을 권고</td></tr>
+    <tr><td class="n" data-l="시기">1919</td><td data-l="ARRL의 움직임">해군이 전파 독점 입법 추진. ARRL이 회원을 동원해 의회 압박</td><td data-l="결과">9월 26일 금지 해제. 이 경험이 ARRL의 강경한 특권 수호 노선으로 이어짐</td></tr>
+  </tbody>
+</table></div>
+
+<div class="note">
+  <b>방송의 시작도 아마추어</b> — 미국 최초의 허가 상업 방송국 KDKA(피츠버그)를 운영한 Frank Conrad 박사는 아마추어 무선사(8XK)였습니다. 1920년 11월 2일 선거 개표 방송으로 시작했고, 1922년 한 해에만 상업 방송국이 500곳 넘게 새로 생겼습니다.
+</div>
+</section>
+
+<!-- ===================================================== 4 -->
+<section id="s4">
+<h2><span class="no">4</span> War Department Radio Net <span class="en">The Army's Own Network</span></h2>
+
+<p>1920년 국방법은 미국 본토를 <b>9개 군단 지역</b>(Corps Area)으로 나누었습니다. 군단 지역마다 3~8개 주를 맡고, 관할 부대(정규군·예비군·주방위군) 행정과 재난 대응을 포함한 국내 방위 업무를 담당했습니다. 1922년 1월 육군은 전화·전신망의 예비 수단으로 <b>War Department Radio Net</b>을 열었습니다.</p>
+
+<div class="stats">
+  <div class="stat"><span class="v">5 → 12국</span><span class="k">주 무선국<br>(1922 → 1925.6)</span></div>
+  <div class="stat"><span class="v">164국</span><span class="k">알래스카·육군 선박 포함 전체 규모<br>당시 최대 무선망</span></div>
+  <div class="stat"><span class="v">219,386건</span><span class="k">1926 회계연도<br>처리 메시지</span></div>
+  <div class="stat"><span class="v">3분 이내</span><span class="k">마닐라 → 워싱턴<br>약 10,000마일</span></div>
+</div>
+
+<figure class="fig">
+  <p class="fig-title">중앙국 WVA 하루 평균 메시지</p>
+  <div class="bars">
+    <div class="bar"><span class="lab">1922년</span><span class="track"><span class="fill gr" style="width:8.3%"></span><span class="val" style="left:8.3%">50건</span></span></div>
+    <div class="bar"><span class="lab">1925년</span><span class="track"><span class="fill" style="width:100%"></span><span class="val in" style="right:0">600건</span></span></div>
+  </div>
+  <figcaption>우정청·국세청·법무부 등 다른 정부 기관의 메시지도 받으면서 3년 만에 12배로 늘었습니다. 상업 전신 요금을 아끼는 수단이기도 했습니다.</figcaption>
+</figure>
+
+<p>트래픽은 늘고 운용사는 줄었습니다. 통신감 Saltzman 소장은 1926년 연설에서 "우리 망으로 닿지 않는 먼 곳에 급히 연락해야 할 때 이 젊은이들(아마추어)에게 기대면 언제나 메시지가 통한다"고 말했습니다. 48개 주 전역에 흩어진 아마추어는 <b>돈을 들이지 않고</b> 망을 군단 지역 본부 너머로 넓히고, 전시에 쓸 예비 운용사를 길러 줄 수 있는 해법이었습니다.</p>
+
+<div class="side">
+  <b>단파를 함께 개척한 군과 아마추어</b><br>
+  1925년 6월 필리핀 포트 매킨리의 통신병과 무선국은 하와이·샌프란시스코의 아마추어국과 단파(HF)로 메시지를 주고받았습니다. 당시에는 단파를 안정적인 통신에 쓸 수 없다고 여겼습니다. 1923년 미국의 면허 아마추어는 16,570명이었고, 무면허 운용자는 그보다 훨씬 많았습니다.
+</div>
+</section>
+
+<!-- ===================================================== 5 -->
+<section id="s5">
+<h2><span class="no">5</span> 1925년, AARS의 출발 <span class="en">The Army Amateur Plan</span></h2>
+
+<p>1921년 육군은 아마추어를 통신 예비군(Signal Reserve Corps)에 편입해 군단 지역 넷을 맡기는 안을 QST에 실었지만 호응을 얻지 못했습니다. 정식 입대가 아닌 <b>자원 제휴</b> 방식으로 다시 짠 계획이 1925년 11월 1일 시행되었습니다. 승인된 아마추어는 "Army Amateur Radio Station" 인증서를 받았고, QST는 1926년 4월부터 고정 칼럼 「Army-Amateur Notes」를 실었습니다.</p>
+
+<div class="sum">
+  <div><p><b class="h">① 비상 통신로</b></p><p>홍수·화재·토네이도·지진·결빙 등으로 전화·전신선이 끊겼을 때 쓸 통신로 확보</p></div>
+  <div><p><b class="h">② 예비 병력 통신</b></p><p>주방위군·예비군이 업무 일부를 이 통신로로 처리</p></div>
+  <div><p><b class="h">③ 훈련된 운용사 저수지</b></p><p>육군 절차와 야전 무선 운용 원칙을 익힌 운용사 확보</p></div>
+  <div><p><b class="h">④ 교류</b></p><p>통신병과 홍보, 실험 정보 교환</p></div>
+</div>
+<p class="small">1925년 계획의 네 가지 목적. ①은 평시 임무, ③은 전시 임무에 해당합니다. 계획서는 대상 인력을 "25,000명 이상의 아마추어"로 잡았습니다.</p>
+
+<h3>9개 군단 지역의 출발 모습</h3>
+<p>조직은 처음부터 <b>분산형</b>이었습니다. 각 군단 지역이 자체 훈련을 하고 월간 소식지를 냈으며, 발전 속도와 방식이 제각각이었습니다.</p>
+
+<div class="areas">
+  <div class="area"><h4>1군단 지역</h4><span class="st">메인·뉴햄프셔·버몬트·매사추세츠 · 본부 보스턴</span>약 100국 모집. <b>매일 밤 모스 연습 방송</b>과 육군 무선 절차 교육. 1927년 5월 육·해군 합동 기동에서 적 전파 감청·해안 감시 보고·넷 컨트롤 3개 조로 참가</div>
+  <div class="area hi"><h4>2군단 지역 · 가장 유망</h4><span class="st">뉴욕·로드아일랜드·뉴저지·델라웨어 · 본부 거버너스 섬</span>지역국 <span class="cs">2SC</span>이 포트 몬머스와 암호 전문 교환 훈련. 뉴욕 육군 건물 <b>월례 모임에 300명</b> 참석. 수신 정확도 대회 운영</div>
+  <div class="area"><h4>3군단 지역</h4><span class="st">펜실베이니아·메릴랜드·버지니아·워싱턴 D.C.</span>지역국 <span class="cs">3SN</span>(포트 하워드) 매일 밤 운용. 능력이 검증된 소수 정예만 회원으로 유지</div>
+  <div class="area"><h4>4군단 지역</h4><span class="st">테네시·노스·사우스캐롤라이나·조지아·미시시피·앨라배마·플로리다</span>플로리다 주방위군 주지사 넷 구성. 예비군 3개 사단 지원에 69명 모집</div>
+  <div class="area hi"><h4>5군단 지역</h4><span class="st">웨스트버지니아·켄터키·오하이오·인디애나</span>1923년부터 아마추어와 협력. 주방위군 장교 <b>Loren G. Windom 중위</b>가 초대 넷 컨트롤국 <span class="cs">8GZ</span> 운용(아래 상자 참고)</div>
+  <div class="area"><h4>6군단 지역</h4><span class="st">일리노이·위스콘신·미시간</span>넷 컨트롤 <span class="cs">9AWW</span>(시카고), 디트로이트 <span class="cs">8BMW</span>·밀워키 <span class="cs">9DTK</span>·매디슨 <span class="cs">9CCF</span>. 예비군 넷 구성</div>
+  <div class="area"><h4>7군단 지역</h4><span class="st">노스·사우스다코타·네브래스카·캔자스·미네소타·아이오와·미주리·아칸소</span>캔자스·미네소타 주방위군 넷. 예비군 넷 자원 29명</div>
+  <div class="area"><h4>8군단 지역</h4><span class="st">텍사스·오클라호마·애리조나·뉴멕시코·콜로라도</span>주지사 넷으로 느리게 출발. <b>ROTC 부대를 멕시코 국경 중계국</b>으로 편입</div>
+  <div class="area"><h4>9군단 지역</h4><span class="st">캘리포니아·워싱턴·오리건·네바다·몬태나·아이다호·와이오밍·유타</span>초기 선정국은 <span class="cs">6RL</span> 하나. 넷 컨트롤(프레시디오)이 필리핀 캠프 니콜스 <span class="cs">1BD</span>와 매일 교신</div>
+</div>
+<p class="small">관할 주 목록은 논문 기재 그대로입니다. 해외 거점으로 하와이·파나마·필리핀이 별도로 연결되었습니다.</p>
+
+<div class="side">
+  <h3>8GZ의 주인공 — 윈덤 안테나의 Windom</h3>
+  <p>5군단 지역 초대 넷 컨트롤국 <b>8GZ</b>의 Loren G. Windom은 1929년 9월 QST에 비중심 급전(off-center fed) 반파장 안테나를 발표한 바로 그 사람입니다. 이 안테나는 지금도 <b>윈덤 안테나</b>로 불립니다. 1927년 국제 협정 이후 호출부호 앞에 W가 붙어 <b>W8GZ</b>가 되었습니다. 오하이오 주방위군 장교였던 그는 2차 세계대전 때 필리핀에서 복무했고, 소장까지 진급해 오하이오 주방위군 최고 지휘관을 지냈습니다.</p>
+  <p class="small">논문에는 안테나 이야기가 없습니다. 동일 인물이라는 사실과 경력은 QCWA·hamgallery의 W8GZ 자료로 확인했습니다.</p>
+</div>
+
+<h3>1926년 여름, 현장에서 증명한 속도</h3>
+<p>조지아 주방위군 제122보병연대의 타이비 섬 하계 훈련에 아마추어 네 명이 참가했습니다. 세 명은 부대와 함께 야전에 나가고 한 명은 애틀랜타 주방위군 본부에서 운용해 <b>542건</b>을 처리했습니다.</p>
+<figure class="fig">
+  <p class="fig-title">타이비 섬 ↔ 애틀랜타 평균 응답 시간</p>
+  <div class="bars">
+    <div class="bar"><span class="lab">아마추어 무선</span><span class="track"><span class="fill g" style="width:16.7%"></span><span class="val" style="left:16.7%">약 20분</span></span></div>
+    <div class="bar"><span class="lab">웨스턴 유니언 전보</span><span class="track"><span class="fill gr" style="width:100%"></span><span class="val in" style="right:0">약 2시간</span></span></div>
+  </div>
+  <figcaption>훈련장에서 거액을 훔쳐 기차로 달아난 절도범의 인상착의가 무선으로 먼저 애틀랜타 경찰서장에게 전달되어, 범인은 기차에서 내리자마자 체포되었습니다.</figcaption>
+</figure>
+<ul>
+  <li><b>미네소타 주방위군</b>: 서류 가방에 들어가는 휴대 무선기로 야전 중대와 숙영지 연결. 정규군 무선이 대대급까지만 보급되던 시기</li>
+  <li><b>오리건 주방위군 제162보병연대</b>: 장병 2,500명의 개인 안부 메시지 중계</li>
+  <li><b>위스콘신 캠프 스파르타</b>: 9AZN·9BLF가 육군 장비 설치 전까지 훈련 간부의 통신 담당</li>
+</ul>
+</section>
+
+<!-- ===================================================== 6 -->
+<section id="s6">
+<h2><span class="no">6</span> 넷 구조의 변천 <span class="en">Net Structure</span></h2>
+<p>AARS의 넷 구조는 세 번 크게 바뀌었습니다. 아래 버튼으로 시기를 고르면 해당 시기의 구조가 표시됩니다.</p>
+
+<figure class="fig" data-tabs>
+  <div class="tabbar" role="group" aria-label="시기 선택">
+    <button type="button" class="btn" data-k="a" data-name="1925 계획">1925 계획</button>
+    <button type="button" class="btn" data-k="b" data-name="1929 개편">1929 개편</button>
+    <button type="button" class="btn" data-k="c" data-name="1936~1941">1936~41</button>
+    <span class="status" aria-live="polite">표시 중: 1925 계획</span>
+  </div>
+
+  <div data-pane="a">
+    <div class="net">
+      <div class="lv"><div class="node top"><b>War Department Radio Net</b>넷 컨트롤 <span class="cs">WVA</span> 포트 마이어<br>각 군단 지역 본부와 이미 연결</div></div>
+      <div class="arrow">↓</div>
+      <div class="lv"><div class="node am"><b>Army Amateur 군단 지역 넷 총괄</b>넷 컨트롤 <span class="cs">2XCL</span> 포트 몬머스<br>육군–ARRL 연락관 Tom C. Rives 대위</div></div>
+      <div class="arrow">↓ <small>군단 지역마다 같은 구성</small></div>
+      <div class="lv">
+        <div class="node"><b>① 군단 지역 넷</b>예비군 사단 본부 + 각 주 주지사실 + 군단 지역 본부국(넷 컨트롤)</div>
+        <div class="node"><b>② 사단 넷</b>예비군 사단별, 아래로 여단·연대 넷</div>
+        <div class="node"><b>③ 주지사 넷</b>주별 주방위군, 아래로 여단·연대 넷. 주방위군이 어디에나 있어 가장 활발</div>
+      </div>
+      <div class="arrow">↓ <small>1926년 6월 추가</small></div>
+      <div class="lv"><div class="node add"><b>보조 넷(Auxiliary Radio Net)</b>근처에 지원할 부대가 없는 아마추어도 육군 절차로 넷 참가</div></div>
+    </div>
+    <p class="netnote">개별 아마추어가 직접 부대를 찾아 지원 관계를 맺어야 해서 진입 장벽이 높았습니다. 부대 쪽도 민간 자원봉사자와 무선을 어떻게 쓸지 잘 몰랐습니다. 2XCL 장비는 통신병 손으로 만들었고, 아마추어 면허를 가진 육군 운용사가 운용하며 해외 DX 교신에도 썼습니다.</p>
+  </div>
+
+  <div data-pane="b" hidden>
+    <div class="net">
+      <div class="lv"><div class="node am"><b>AARS 넷 컨트롤</b>포트 몬머스 → 이후 워싱턴 D.C. <span class="cs">WLM-W3CXL</span><br>연락관은 통신감 직속</div></div>
+      <div class="arrow">↓</div>
+      <div class="lv"><div class="node"><b>군단 지역 넷</b>군단 지역 통신참모 책임<br>민간 자원봉사자 <b>Radio Aide</b>가 보좌</div></div>
+      <div class="arrow">↓</div>
+      <div class="lv"><div class="node"><b>주 넷</b>주도 중심, 주와 군단 지역을 잇는 연결 고리<br>주방위군 소속에서 분리</div></div>
+      <div class="arrow">↓</div>
+      <div class="lv"><div class="node"><b>지구 넷(District)</b>주를 몇 개 구역으로 나눈 넷<br>비상시 들어오는 트래픽의 첫 창구</div></div>
+      <div class="arrow">↓</div>
+      <div class="lv"><div class="node add"><b>지역 넷(Local)</b>위 넷에 들지 못한 아마추어도 참가</div></div>
+    </div>
+    <p class="netnote">2군단 지역 통신참모 출신 Gibbs 소장이 통신감이 되면서 2군단 지역 방식이 표준이 되었습니다. 목적 문구도 "운용사 저수지 제공"에서 "육군 무선 절차 지식 제공"으로 바뀌었습니다. 논문은 이를 아마추어가 기대만큼의 인력 풀이 아니라는 인식, 또는 군 보조 조직 색채를 줄여 회원을 늘리려는 시도로 해석합니다.</p>
+  </div>
+
+  <div data-pane="c" hidden>
+    <div class="net">
+      <div class="lv">
+        <div class="node top"><b>WAR</b>War Department Radio Net 주국</div>
+        <div class="node am"><b>WLM-W3CXL</b>AARS 넷 컨트롤, 워싱턴<br>WAR와 <strong>같은 방</strong>에서 운용<br>매일 08~24시 · 3497.5 / 6990 kHz</div>
+      </div>
+      <div class="arrow">↓ <small>매일 연락: 각 군단 지역국·하와이·필리핀·파나마</small></div>
+      <div class="lv"><div class="node"><b>군단 지역 넷</b>매일 밤 운용, 보통 주마다 1국 참가<br>예비 넷 컨트롤국을 지역 안 다른 곳에 둠<br>예: 2군단 지역 <span class="cs">WLN-W2SC</span> → 뉴욕·뉴저지·델라웨어·푸에르토리코</div></div>
+      <div class="arrow">↓</div>
+      <div class="lv"><div class="node"><b>주 넷 (최하위 넷)</b>보통 주 1회 월요일<br>큰 주는 회원을 30분 단위 조로 나눠 차례로 체크인<br>비상시 주 단위 구호 조정의 중심</div></div>
+      <div class="arrow">↓ <small>1941년 가을 추가</small></div>
+      <div class="lv"><div class="node vhf"><b>112 MHz VHF 지역 민방위 넷</b>회원이 장비를 직접 제작·확보<br>넷 컨트롤국이 HF·VHF 양쪽을 운용해 두 망을 연결</div></div>
+    </div>
+    <p class="netnote">1936년 지구 넷·지역 넷을 원칙적으로 폐지했습니다. 그 결과 회원 한 명이 육군 절차로 송신할 기회가 줄어, 시간대를 나눠 모든 회원이 체크인하고 트래픽을 교환하게 했습니다.</p>
+  </div>
+</figure>
+</section>
+
+<!-- ===================================================== 7 -->
+<section id="s7">
+<h2><span class="no">7</span> 1927 버몬트 홍수와 12가지 교훈 <span class="en">Vermont Flood, 1927</span></h2>
+
+<p>1927년 11월 2일 쿠바에서 올라온 열대 폭풍이 동해안을 따라 북상해 캐나다에서 내려온 고기압과 만났습니다. 버몬트에 폭우가 쏟아져 인명·재산 피해와 함께 <b>피해 지역의 유선 통신이 모두 끊겼습니다</b>. Army Amateur 넷 회원을 포함한 아마추어들이 구호 기관에 통신을 제공했고, 유선이 복구될 때까지 <b>3주 동안</b> 비상통신을 유지했습니다.</p>
+<p>성과는 컸지만 분산형 조직의 한계도 드러났습니다. 군단 지역마다 조직 기준이 달라 효율적인 통신이 어려웠습니다. 이후 정리된 12가지 교훈을 성격별로 묶으면 다음과 같습니다.</p>
+
+<div class="tbl"><table>
+  <caption>1927년 홍수 이후 정리된 비상통신 교훈 (번호는 원문 순서)</caption>
+  <thead><tr><th>분류</th><th>교훈</th></tr></thead>
+  <tbody>
+    <tr><td class="n">지휘·중계 체계</td><td>(1) 군단 지역 통신참모 지휘 아래 아마추어 넷 컨트롤국과 메시지 센터 설치<br>(3) 모든 트래픽은 넷 컨트롤국(메시지 센터)을 거침<br>(4) 넷 컨트롤국이 피해 지역 트래픽을 받아 메시지 센터로 넘길 국을 지정</td></tr>
+    <tr><td class="n">주파수·호출부호</td><td>(2) 피해 지역에서 일하는 국에 육군 관리 주파수와 호출부호 허가<br>(7) 가능한 한 <b>80 m 밴드</b>에서 운용</td></tr>
+    <tr><td class="n">운용 규율</td><td>(5) 비상 트래픽을 다루지 않는 국은 <b>송신 자제</b><br>(11) 비상 트래픽이 없는 국은 수신 대기하며 메시지 전달을 도움<br>(12) 비상 운용 중에도 같은 일을 하는 다른 국에 혼신을 주지 않도록 주의</td></tr>
+    <tr><td class="n">현장 지원</td><td>(6) 피해 지역 근처 국은 그곳 국에 도움과 필요한 장비 제공<br>(10) <b>보조 전원</b>을 확보하거나, 비상시 쓸 수 있는지 미리 확인</td></tr>
+    <tr><td class="n">기관 연계</td><td>(8) 피해 지역 국은 정기적으로 뉴스 속보를 송출하고, 수신국이 AP 통신에 전달<br>(9) 각 도시의 군·소방·경찰·전화·전신 본부에 그 도시 아마추어국을 미리 알림</td></tr>
+  </tbody>
+</table></div>
+
+<div class="note">지휘 넷, 넷 컨트롤 경유, 불필요한 송신 자제, 보조 전원, 유관 기관에 연락처 사전 등록. 100년 가까이 지난 지금 비상통신 훈련에서 강조하는 원칙과 거의 같습니다. 1929년 개편은 이 교훈을 반영해 조직을 표준화하고 지원 대상에 <b>적십자</b>를 추가했습니다.</div>
+</section>
+
+<!-- ===================================================== 8 -->
+<section id="s8">
+<h2><span class="no">8</span> 재난 현장 기록 <span class="en">Disaster Response</span></h2>
+
+<div class="tbl"><table class="stack">
+  <caption>논문에 기록된 AARS 비상통신 사례</caption>
+  <thead><tr><th>시기</th><th>상황</th><th>AARS의 역할</th></tr></thead>
+  <tbody>
+    <tr><td class="n" data-l="시기">1927.11</td><td data-l="상황">버몬트 홍수, 유선 전면 두절</td><td data-l="AARS의 역할">3주간 구호 기관 통신. 12가지 교훈의 출발점</td></tr>
+    <tr><td class="n" data-l="시기">1931.12</td><td data-l="상황">미시시피 주 탤러해치 강 범람, 미시시피 강 범람 위협</td><td data-l="AARS의 역할">7군단 지역 <span class="cs">W9BNT</span> → 워싱턴 <span class="cs">W3CXM</span> → 적십자 본부로 상황 보고. 4군단 지역도 감시 체제. 실제 통신망 피해는 없었지만 신속한 동원 능력 확인</td></tr>
+    <tr><td class="n" data-l="시기">1932.8</td><td data-l="상황">허리케인 시즌 대비</td><td data-l="AARS의 역할">플로리다 레이크워스 <span class="cs">W4AWO</span>의 요청으로 허리케인 시즌 동안 플로리다–워싱턴 직통 감시 넷 구성</td></tr>
+    <tr><td class="n" data-l="시기">1933.1</td><td data-l="상황">캘리포니아 눈폭풍, 모하비·랭커스터·팜데일 등 고립</td><td data-l="AARS의 역할"><span class="cs">W6AIF</span>가 전화 회사·적십자에 운용 사실 통보. 긴급 의약품 요청 등 <b>16건</b> 중계, 도로 폐쇄 조정 (아래 그림)</td></tr>
+    <tr><td class="n" data-l="시기">1933.3</td><td data-l="상황">캘리포니아 콤프턴 진원 지진, 롱비치 큰 피해</td><td data-l="AARS의 역할">샌페드로 <span class="cs">W6DLI</span>가 주 넷 컨트롤 <span class="cs">W6DVD</span>를 거쳐 주방위군 상황 보고. 지구 넷이 첫 창구, 주 넷이 지구 밖 흐름을 관리. 운용사 11명 통신감 표창</td></tr>
+    <tr><td class="n" data-l="시기">1935.6</td><td data-l="상황">네브래스카 홍수</td><td data-l="AARS의 역할"><span class="cs">WLU-W9BNT</span>가 적십자 구호 조정 보고 처리, 철도 회사와 함께 홍수에 갇힌 여객열차 위치 확인. 전력 회사 이동국이 항공편으로 오지에 들어가 중계</td></tr>
+    <tr><td class="n" data-l="시기">1935.9</td><td data-l="상황">플로리다 키스 허리케인(9월 3~5일)</td><td data-l="AARS의 역할">넷 컨트롤 <span class="cs">WLRO-W4AWO</span>가 강철·콘크리트로 지은 레이크워스 시민회관 꼭대기 층에서 운용. 비상 물자 비축, 임시 병원 겸용, 적십자와 공동 관리. 침대 트레일러를 개조한 <b>이동 무선국</b> 출동. 플로리다 주방위군 표창</td></tr>
+    <tr><td class="n" data-l="시기">1937.1</td><td data-l="상황">남부 일리노이 홍수</td><td data-l="AARS의 역할">6군단 지역은 AARS 대신 비회원 아마추어에 의존하는 계획을 세웠음. 대응은 열성적이었지만 <b>조직되지 않아 오히려 비상통신을 방해</b></td></tr>
+    <tr><td class="n" data-l="시기">1937.8~</td><td data-l="상황">일본군 상하이 공격, 미국인 철수</td><td data-l="AARS의 역할">상하이 <span class="cs">XU8CR</span>이 하루 약 50건 처리(해병 제6연대·선교 기관·서양인 사회). 논문 기준 송신 2,890건, 수신 2,000건 (아래 그림)</td></tr>
+    <tr><td class="n" data-l="시기">1941.9</td><td data-l="상황">텍사스 허리케인, 코퍼스크리스티·갤버스턴 유선 두절</td><td data-l="AARS의 역할">텍사스 넷 컨트롤 <span class="cs">W5BB</span>(주방위군 통신장교), 포트 샘 휴스턴 <span class="cs">W5OW</span>가 중심국. 도로청·주 경찰·적십자·기상국·주방위군 트래픽 처리. 주지사·주의회 표창</td></tr>
+  </tbody>
+</table></div>
+
+<h3>중계 경로 ① 1933년 캘리포니아 눈폭풍</h3>
+<figure class="fig">
+  <div class="relay">
+    <div class="hop src"><span class="cs">W6AIF</span><br>R. A. Rohrscheib · 고립 지역 AARS 회원</div>
+    <div class="arrow">↓ <small>주 경로</small></div>
+    <div class="hop fail"><span class="cs">W6HAE</span><br>로스앤젤레스 · 단파 전파 상태 변화로 교신 불가</div>
+    <div class="arrow">↓ <small>군단 지역 <b>예비 주파수</b>로 전환</small></div>
+    <div class="hop"><span class="cs">W6DPJ</span><br>유타 주 프로보 · 우회 중계</div>
+    <div class="arrow">↓</div>
+    <div class="hop dst"><span class="cs">로스앤젤레스</span><br>1월 18일 저녁 유선 복구까지 긴급 메시지 16건 전달</div>
+  </div>
+  <figcaption>가까운 국과 교신이 끊기자 예비 주파수와 먼 중계국으로 돌아간 사례입니다. 단파 비상통신에서 예비 주파수와 우회 경로를 미리 정해 두는 이유를 보여 줍니다.</figcaption>
+</figure>
+
+<h3>중계 경로 ② 1937년 상하이 → 워싱턴</h3>
+<figure class="fig">
+  <div class="relay">
+    <div class="hop src"><span class="cs">XU8CR</span><br>상하이 · C. R. Shekury (현지 자동차 회사 직원)</div>
+    <div class="arrow">↓ <small>AARS 연락관이 직접 섭외</small></div>
+    <div class="split">
+      <div class="hop"><span class="cs">K6OCL</span><br>괌</div>
+      <div class="hop"><span class="cs">WLXR-KA1AX</span><br>필리핀</div>
+      <div class="hop"><span class="cs">VS6AH</span><br>홍콩 · 영국국, 특별 협조</div>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="hop"><span class="cs">WLXB-K6OGD</span><br>하와이</div>
+    <div class="arrow">↓</div>
+    <div class="hop"><span class="cs">WLMI-W6GXM</span><br>로스앤젤레스</div>
+    <div class="arrow">↓</div>
+    <div class="hop dst"><span class="cs">WLM-W3CXL</span><br>워싱턴 D.C. · AARS 넷 컨트롤</div>
+  </div>
+  <figcaption>군·외교 통신망의 부담을 덜기 위해 태평양을 가로지르는 아마추어 중계망을 이용했습니다. 호출부호 앞의 WL은 육군 주파수용 호출부호입니다(10장).</figcaption>
+</figure>
+</section>
+
+<!-- ===================================================== 9 -->
+<section id="s9">
+<h2><span class="no">9</span> 훈련과 대회 <span class="en">Training and Contests</span></h2>
+<p>훈련 대부분은 <b>넷 안에서, 전파로</b> 이루어졌습니다. 트래픽 처리, 육군 암호 전문 송수신, 가장 정확한 운용사를 가리는 대회가 중심이었습니다. 마지막 열 「비슷한 오늘의 활동」은 오늘날 아마추어 활동 가운데 성격이 비슷한 것을 이 해설에서 짝지은 것입니다.</p>
+
+<div class="tbl"><table class="stack">
+  <thead><tr><th>훈련·대회</th><th>내용</th><th>비슷한 오늘의 활동</th></tr></thead>
+  <tbody>
+    <tr><td class="n" data-l="훈련·대회">모스 연습 방송</td><td data-l="내용">1군단 지역이 매일 밤 송출. 육군 무선 절차 기초 포함</td><td data-l="비슷한 오늘의 활동">CW 연습 방송</td></tr>
+    <tr><td class="n" data-l="훈련·대회">정확 수신 대회</td><td data-l="내용">넷 컨트롤이 정해진 시각에 평문·암호문 전문을 송신. 받아 적고 해독한 사본을 우편으로 제출, 오류가 가장 적은 사람이 수상</td><td data-l="비슷한 오늘의 활동">트래픽 넷 전문 수신 연습</td></tr>
+    <tr><td class="n" data-l="훈련·대회">코드 속도 대회</td><td data-l="내용">1937년 12월 6일. 점점 빨라지는 모스를 정확하게 받아 적는 경기. 비회원에게도 개방해 회원 모집에 활용</td><td data-l="비슷한 오늘의 활동">CW 수신 속도 인증</td></tr>
+    <tr><td class="n" data-l="훈련·대회">Army Day 메시지</td><td data-l="내용">1941년 4월 6일. 육군장관 메시지를 <span class="cs">WLM-W3CXL</span>이 AARS 주파수로 송신 → 회원이 받아 아마추어 밴드로 재송신. 전파 속도와 회원 능력을 동시에 확인</td><td data-l="비슷한 오늘의 활동">공식 방송 수신 후 지역 넷 재전달</td></tr>
+    <tr><td class="n" data-l="훈련·대회">ZCB Location Contest</td><td data-l="내용">1941년 6월 2일, 9월 8일. 제한 시간 안에 최대한 많은 회원과 교신하고 <b>도시·주·군단 지역</b>을 교환. 교신 수가 많은 사람이 우승. ZCB는 육군 무선 절차 부호</td><td data-l="비슷한 오늘의 활동"><b>컨테스트</b> (QSO 수 경쟁, 익스체인지 교환)</td></tr>
+    <tr><td class="n" data-l="훈련·대회">AARS Quiz Contest</td><td data-l="내용">1941년 8월. 육군 무선 절차 문제로 군단 지역끼리 경쟁</td><td data-l="비슷한 오늘의 활동">운용 절차 퀴즈</td></tr>
+    <tr><td class="n" data-l="훈련·대회">방향 탐지</td><td data-l="내용">위치를 모르는 송신국 찾기</td><td data-l="비슷한 오늘의 활동"><b>ARDF</b>·폭스 헌팅</td></tr>
+    <tr><td class="n" data-l="훈련·대회">미지국 감청</td><td data-l="내용">1939년 12월 5일. 모르는 주파수 두 곳으로 송신한 전문을 찾아 주파수와 신호 세기를 보고. 보고 3건이 모이는 데 군단 지역마다 몇 분</td><td data-l="비슷한 오늘의 활동">전파 감시, 혼신원 탐색</td></tr>
+    <tr><td class="n" data-l="훈련·대회">암호 해독</td><td data-l="내용">QST 칼럼 끝의 암호문 풀기. 통신병과 통신 강좌 「기초 군사 암호」는 대기자 명단이 생길 정도로 인기</td><td data-l="비슷한 오늘의 활동">—</td></tr>
+    <tr><td class="n" data-l="훈련·대회">휴대국 운용</td><td data-l="내용">배터리로 움직이는 자작 휴대국. 1938년 3월 15일 뉴햄프셔 주 전역 재난 대응 시험에서 주방위군 무기고·경찰서·소방서에 신속 배치</td><td data-l="비슷한 오늘의 활동">비상 전원 이동운용 훈련</td></tr>
+  </tbody>
+</table></div>
+
+<div class="myth">
+  <b>비둘기 대 무선, 1933년</b> — 제2보병사단이 22마일 떨어진 야전에서 암호 전문을 비둘기와 무선으로 동시에 보냈습니다. 무선이 8분 먼저 도착했지만 암호화 또는 송신 과정에서 생긴 오류가 3곳 있었고, 비둘기는 강한 맞바람을 맞았습니다. 결론은 "거의 비슷함"이었습니다. 같은 시기 포병 시험에서는 무선 전신이 전화보다 빠르고 오류도 적었습니다.
+</div>
+
+<h3>CCC 캠프 지원 — 훈련과 절감을 함께</h3>
+<p>1933년 육군은 대공황 실업자 구제 사업인 민간 자원 보존단(CCC) 운영을 맡았습니다. 전화가 닿지 않는 캠프가 많았고, 대원들은 집과 소식을 주고받고 싶어 했습니다. 3군단 지역은 AARS 야간 넷용 무선기로 낮에 CCC 넷을 운용하고, 캠프의 안부 메시지를 AARS 넷에 넘겨 무료로 전달했습니다. 7군단 지역은 CCC 무선기에 수정을 하나 더 달아 밤에는 AARS 주파수의 주 넷에 참가하게 했습니다. 4군단 지역의 CCC 무선국은 1936년 1월 13국에서 37국으로 늘었습니다.</p>
+<figure class="fig">
+  <p class="fig-title">7군단 지역 CCC 월평균 통신비</p>
+  <div class="bars">
+    <div class="bar"><span class="lab">무선 도입 전<small>1934.9~1935.8</small></span><span class="track"><span class="fill gr" style="width:100%"></span><span class="val in" style="right:0">$3,842.83</span></span></div>
+    <div class="bar"><span class="lab">무선 도입 후</span><span class="track"><span class="fill g" style="width:51.6%"></span><span class="val" style="left:51.6%">$1,984.25</span></span></div>
+  </div>
+</figure>
+</section>
+
+<!-- ===================================================== 10 -->
+<section id="s10">
+<h2><span class="no">10</span> 호출부호와 주파수 <span class="en">Callsigns and Frequencies</span></h2>
+
+<div class="tbl"><table class="stack">
+  <caption>논문에 나오는 호출부호 체계</caption>
+  <thead><tr><th>구분</th><th>형식</th><th>예</th></tr></thead>
+  <tbody>
+    <tr><td class="n" data-l="구분">미국 아마추어 (1927 이전)</td><td data-l="형식">숫자 1자 + 문자 2~3자</td><td data-l="예"><span class="cs">8GZ</span> <span class="cs">9XE</span> <span class="cs">2SC</span> <span class="cs">8XK</span></td></tr>
+    <tr><td class="n" data-l="구분">미국 아마추어 (1927 이후)</td><td data-l="형식">1927년 국제무선전신회의 이후 앞에 W 또는 K. 운용 국가 식별</td><td data-l="예"><span class="cs">W8GZ</span> <span class="cs">W9BNT</span> <span class="cs">K6OCL</span></td></tr>
+    <tr><td class="n" data-l="구분">해군 무선국</td><td data-l="형식">N으로 시작하는 3문자</td><td data-l="예"><span class="cs">NAA</span> (알링턴)</td></tr>
+    <tr><td class="n" data-l="구분">War Department Radio Net</td><td data-l="형식">W로 시작하는 3문자</td><td data-l="예"><span class="cs">WVA</span> → <span class="cs">WAR</span> (1928.11.30), <span class="cs">WVP</span></td></tr>
+    <tr><td class="n" data-l="구분">AARS 육군 주파수</td><td data-l="형식">WL로 시작하는 3~4문자. 아마추어 주파수에서는 FCC 호출부호 사용, 둘을 이어 표기</td><td data-l="예"><span class="cs">WLM-W3CXL</span> <span class="cs">WLN-W2SC</span> <span class="cs">WLRO-W4AWO</span></td></tr>
+    <tr><td class="n" data-l="구분">AARS 넷 컨트롤 특별 호출부호</td><td data-l="형식">1941년 6월 24일 FCC 허가. USA = United States Army</td><td data-l="예"><span class="cs">W3CXL</span> → <span class="cs">W3USA</span></td></tr>
+  </tbody>
+</table></div>
+
+<figure class="fig">
+  <p class="fig-title">AARS 넷 컨트롤 주파수와 아마추어 밴드</p>
+  <div class="band">
+    <div class="bt">3.5 MHz대 (80 m)</div>
+    <div class="strip">
+      <div class="ham" style="left:8.33%;width:83.33%"><span>아마추어 밴드 3,500~4,000 kHz</span></div>
+      <div class="mk" style="left:7.9%"><span style="left:0;transform:none">3,497.5 kHz</span></div>
+    </div>
+    <div class="ax"><span>3,450</span><span>3,750</span><span>4,050 kHz</span></div>
+  </div>
+  <div class="band">
+    <div class="bt">7 MHz대 (40 m)</div>
+    <div class="strip">
+      <div class="ham" style="left:10%;width:75%"><span>아마추어 밴드 7,000~7,300 kHz</span></div>
+      <div class="mk" style="left:7.5%"><span style="left:0;transform:none">6,990 kHz</span></div>
+    </div>
+    <div class="ax"><span>6,960</span><span>7,160</span><span>7,360 kHz</span></div>
+  </div>
+  <figcaption>WLM-W3CXL의 두 주파수는 80 m·40 m 아마추어 밴드 하단 바로 아래에 있었습니다(밴드 범위는 당시 미국 기준). 육군 주파수에서는 WL 호출부호, 밴드 안에서는 FCC 호출부호를 썼습니다.</figcaption>
+</figure>
+
+<ul>
+  <li><b>80 m 우선</b>: 1927년 홍수 교훈 (7)은 비상 운용을 가능한 한 80 m 밴드에서 하도록 했습니다.</li>
+  <li><b>1941년 늦여름</b>: 육군 항공대 확장으로 3,500~4,000 kHz 주파수가 더 필요해져, 이 범위에서 운용하던 AARS 넷 약 70개가 자리를 옮겼습니다.</li>
+  <li><b>1941년 가을</b>: 전쟁이 나면 적이 단파 전파를 탐지·이용할 수 있어 HF 운용은 중단될 것으로 보았습니다. 가시거리 통신인 <b>112 MHz</b>(당시 2.5 m 아마추어 밴드) VHF 장비를 회원이 직접 만들거나 구해 지역 민방위 통신에 대비했습니다.</li>
+</ul>
+</section>
+
+<!-- ===================================================== 11 -->
+<section id="s11">
+<h2><span class="no">11</span> 전쟁 직전과 활동 중단 <span class="en">Mobilization and Suspension</span></h2>
+
+<p>1939년 유럽에서 전쟁이 시작되자 정규군 17,000명 증원(1939.9.8), 주방위군·예비군 단계 소집(1940.8.27), 징병법(1940)이 이어졌습니다. AARS는 장병과 가족을 잇는 통신로가 되었습니다. 원래 6~8월은 쉬었지만 1941년에는 여름에도 운용했습니다.</p>
+<ul>
+  <li><b>장병 무선전보(service personnel radiogram)</b>가 늘어 워싱턴 넷 컨트롤이 몇 달째 한계 용량으로 운용. AARS가 <b>ARRL 메시지 양식</b>을 채택해 일반 아마추어 경로로도 처리</li>
+  <li>1941년 성탄 인사 메시지는 AARS가 받지 못하고 일반 아마추어 경로로 돌림</li>
+  <li><b>USO 클럽 무선국</b>: 군 시설 근처 휴게 클럽에 아마추어국을 두고 장병 전보를 ARRL·AARS 넷으로 송신. 1941년 11월 10일 코네티컷 뉴런던에 첫 국 개설</li>
+  <li>1940년 12월 3일 통신감 Mauborgne 소장이 <span class="cs">WAR</span>에서 ARRL 본부국 <span class="cs">W1AW</span>와 교신. 이후 WAR와 민간 아마추어국의 정기 교신으로 회원·지원자 모집</li>
+</ul>
+
+<h3>숫자가 말해 준 한계</h3>
+<p>1941년 육군은 면허 아마추어 전원에게 설문(WD OCSigO Form No. 170)을 보냈습니다. 결과는 AARS가 전시 인력 풀이 될 수 없다는 것이었습니다.</p>
+
+<figure class="fig">
+  <p class="fig-title">1941년 전후 미국 아마추어와 AARS</p>
+  <div class="bars">
+    <div class="bar"><span class="lab">면허 아마추어<small>1941년</small></span><span class="track"><span class="fill gr" style="width:100%"></span><span class="val in" style="right:0">약 58,000명</span></span></div>
+    <div class="bar"><span class="lab">설문 응답</span><span class="track"><span class="fill" style="width:70.7%"></span><span class="val in" style="left:0;width:70.7%;text-align:right">41,000명 이상</span></span></div>
+    <div class="bar"><span class="lab">군 복무<small>1942년 봄</small></span><span class="track"><span class="fill v" style="width:20.7%"></span><span class="val" style="left:20.7%">12,000명</span></span></div>
+    <div class="bar"><span class="lab">AARS 회원<small>참전 직전</small></span><span class="track"><span class="fill o" style="width:3.7%"></span><span class="val" style="left:3.7%">2,159명 (3~4%)</span></span></div>
+  </div>
+  <figcaption>설문 응답자 평균 나이 30.5세, 60%가 기혼·부양가족 있음·신체 부적격 중 하나였습니다. 군 복무 인원 12,000명은 AARS 전체 회원 수의 5배가 넘습니다. 군에 들어간 아마추어 대부분은 AARS 밖에서 왔습니다.</figcaption>
+</figure>
+
+<div class="stats">
+  <div class="stat"><span class="v">2,307명</span><span class="k">AARS 회원<br>1940년 11월</span></div>
+  <div class="stat"><span class="v">2,192명</span><span class="k">AARS 회원<br>1941년</span></div>
+  <div class="stat"><span class="v">2,159명</span><span class="k">AARS 회원<br>참전 직전</span></div>
+  <div class="stat"><span class="v">−148명</span><span class="k">1940→1941 감소분<br>논문은 입대자로 추정</span></div>
+</div>
+
+<p>입대 절차도 문제였습니다. 징집 대상자가 아마추어 면허나 AARS 경력이 있는지는 <b>입소 때 본인이 밝혀야만</b> 알 수 있었습니다. ARRL은 입대자에게 FCC 면허증을 챙겨 가라고 당부했지만, 면허를 밝히고도 무선과 무관한 보직을 받았다는 불만 편지가 QST에 실렸습니다. AARS 회원 명부도 군단 지역마다 비공식으로 관리되어, 위기 때 회원을 운용사 보직으로 보낼 방법이 없었습니다.</p>
+
+<div class="sum">
+  <div class="bad"><p><b class="h">AARS (육군, 1925~)</b></p><p>자원 제휴, 입대·임관 의무 없음. 예비군 편입이나 통신 강좌를 통한 임관안이 거론되었지만 실현되지 않았고, 아마추어도 비공식 관계 이상을 꺼렸음. 회원 명부 없음</p></div>
+  <div class="good"><p><b class="h">해군 통신 예비대 NCR (해군, 1925~)</b></p><p>AARS와 같은 해 출범, 비슷한 정기 넷 운용. 회원 모두 해군 예비역으로 입대 또는 임관. 1941년 5월 전원 현역 소집 또는 소집 중이어서 조직 해체</p></div>
+</div>
+
+<h3>1941년 12월 8일</h3>
+<p>진주만 공격 다음 날 FCC는 <b>Order No. 87</b>로 미국 본토와 해외 영토의 아마추어 운용을 중단시키고, 국방용 아마추어 무선 허가 권한을 국방통신위원회(Defense Communications Board)에 넘겼습니다. 같은 날 통신감의 <b>전문 No. 49</b>가 <span class="cs">WLM-W3USA</span>의 마지막 송신이 되었습니다.</p>
+<figure class="fig">
+  <p class="fig-title">전문 No. 49 앞부분 (원문)</p>
+  <div class="wire">ALL AMATEUR RADIO OPERATIONS INCLUDING THE ARMY AMATEUR RADIO SYSTEM ARE SUSPENDED FOR THE PRESENT STOP CIVILIAN DEFENSE AGENCIES REQUIRING USE OF AMATEUR RADIO FACILITIES SHOULD MAKE SUCH REQUESTS TO DEFENSE COMMUNICATIONS BOARD FOR CONSIDERATION STOP THE WAR DEPARTMENT TODAY ISSUED AN APPEAL FOR RADIO OPERATORS STOP …</div>
+  <figcaption>요지: AARS를 포함한 모든 아마추어 운용을 당분간 중단한다. 민방위 기관은 국방통신위원회에 사용을 신청한다. 18~35세 미혼으로 신체 건강한 아마추어는 즉시 가까운 모병소나 통신병과에 지원하기 바란다.</figcaption>
+</figure>
+<p>전쟁이 시작되자 국내 비상통신은 민방위청(Office of Civilian Defense) 소관이 되었습니다. 민방위청은 AARS 구조를 이어받지 않고 자체 조직을 새로 만들었고, 육군의 관심은 해외 전선으로 옮겨 갔습니다.</p>
+</section>
+
+<!-- ===================================================== 12 -->
+<section id="s12">
+<h2><span class="no">12</span> 성과와 한계 <span class="en">Success and Failure</span></h2>
+<div class="sum">
+  <div class="good"><p><b class="h">평시 임무 — 성공</b></p>
+    <ul>
+      <li>주방위군·예비군 통신 지원</li>
+      <li>CCC 캠프 통신망 확장과 비용 절감</li>
+      <li>참전 전 장병–가족 메시지 통로</li>
+      <li>전국 재난 현장에서 지방·주·연방 기관 비상통신</li>
+      <li>육군 절차에 숙달된 운용사 양성</li>
+    </ul></div>
+  <div class="bad"><p><b class="h">전시 임무 — 실패</b></p>
+    <ul>
+      <li>회원 규모가 면허자의 3~4%에 그침</li>
+      <li>회원 상당수가 나이·가족·신체 조건으로 입대 대상이 아님</li>
+      <li>회원을 현역으로 데려올 제도와 명부 없음</li>
+      <li>전시 민방위 통신에도 조직이 활용되지 못함</li>
+    </ul></div>
+</div>
+<p>논문의 결론은 분명합니다. AARS는 평시 비상통신 조직으로는 성공했고, 전시 운용사 공급원으로는 실패했습니다. 저자는 2009년 비상통신 임무를 되찾은 MARS가 <b>중앙의 표준 조직</b>과 <b>지역의 자발성</b>을 함께 갖췄던 AARS에서 배울 수 있다고 정리합니다.</p>
+</section>
+
+<!-- ===================================================== 13 -->
+<section id="s13">
+<h2><span class="no">13</span> 오늘의 무선사에게 남는 것 <span class="en">Takeaways</span></h2>
+<p class="small">아래는 논문 내용을 바탕으로 이 해설에서 정리한 것입니다.</p>
+<ol>
+  <li><b>쓸모가 특권을 지킨다.</b> ARRL은 1915년부터 공공 기여를 증명해 주파수를 지키려 했고, 1919년 해군의 전파 독점 시도를 의회 압박으로 막았습니다. 재난 통신 실적은 지금도 아마추어 무선의 존재 이유를 설명하는 가장 강한 근거입니다.</li>
+  <li><b>열정만으로는 부족하다.</b> 1927년 버몬트의 교훈과 1937년 일리노이의 혼란은 조직되지 않은 선의가 오히려 통신을 방해할 수 있음을 보여 줍니다. 넷 컨트롤, 송신 자제, 정해진 경로가 비상통신의 핵심입니다.</li>
+  <li><b>평소에 넷을 돌려야 비상시에 돌아간다.</b> AARS는 매일 밤 군단 지역 넷, 매주 주 넷을 운용했고, 메시지 송수신·대회·감청 훈련을 이어 갔습니다. 1933년 캘리포니아에서 예비 주파수로 즉시 전환할 수 있었던 것도 그 결과입니다.</li>
+  <li><b>예비 주파수·보조 전원·이동국.</b> 1930년대 플로리다의 강화 건물 운용소, 이동 트레일러, 배터리 휴대국은 지금 비상통신 준비물과 다르지 않습니다.</li>
+  <li><b>명부와 제도가 없으면 동원할 수 없다.</b> 잘 훈련된 운용사가 있어도, 누가 어디에 있는지 알고 부를 절차가 없으면 위기 때 힘이 되지 못했습니다.</li>
+</ol>
+</section>
+
+<!-- ===================================================== 14 -->
+<section id="s14">
+<h2><span class="no">14</span> 출처 <span class="en">References</span></h2>
+<p>이 해설의 본문은 아래 논문을 근거로 썼습니다. 논문에는 표와 그림이 없으며, 이 페이지의 연표·막대그래프·구조도·표는 모두 논문 본문의 수치와 사실을 정리해 새로 만든 것입니다. 일부 원문 수치에 서로 맞지 않는 부분(예: 넷 컨트롤 호출부호 2CXL/2XCL 혼용, 상하이 통신량 집계 시점)이 있어 해당 부분은 논문 표기를 그대로 두었습니다.</p>
+<ol class="refs">
+  <li>Scott B. Hedberg, 「The Army Amateur Radio System: 1925-1941」, Monograph, School of Advanced Military Studies, United States Army Command and General Staff College, Fort Leavenworth, Kansas, AY 2010. <span class="small">(Approved for Public Release; Distribution is Unlimited)</span></li>
+  <li>Loren G. Windom 관련 보충: <a href="https://qcwa.org/w8gz-07696-sk.htm" target="_blank" rel="noopener">QCWA, 「W8GZ 1905-1988」</a>, <a href="https://hamgallery.com/qsl/country/USA/Ohio/8gz.htm" target="_blank" rel="noopener">hamgallery, 「8GZ 1923 Columbus, Ohio」</a></li>
+</ol>
+<p class="small">논문이 인용한 주요 1차 자료: QST(ARRL 월간지) 1915~1942년 기사와 「Army-Amateur Notes」·「Army-Amateur Radio System Activities」 칼럼, The Signal Corps Bulletin, 미 육군 군사사 센터의 통신병과사(R. Raines, D. Terrett, G. Thompson), C. DeSoto 「200 Meters &amp; Down」(ARRL, 1936).</p>
+</section>
+
+</main>
+
+<footer>
+  <p>육군 아마추어 무선 시스템(AARS) 1925–1941 해설 · 근거 자료는 14장에 정리했습니다.</p>
+  <p><a href="#toc">목차로</a></p>
+</footer>
+</div>
+
+<a class="btn tocfab" id="tocFab" href="#toc" aria-label="목차로 가기">☰ 목차</a>
+
+<script src="app.js?v=1"></script>
+</body>
+</html>
